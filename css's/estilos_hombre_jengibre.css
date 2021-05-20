@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background: peachpuff;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+section{
+    color: black;
+    background: white;
+}
+header img{
+    width: 100px;
+    margin-left: 46%;
+    margin-top: 1%;
+    border-radius: 100%;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em
+}
+section{
+    margin: 0 auto;
+}
+article h2 a:hover{
+    float: left;
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    font-size: 1em;
+}
+article p{
+    margin-left: 20%;
+
+}
+article p, article ul{
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
+    line-height: 1.3em;
+    margin-bottom: 1.6em;
+}
+footer{
+    margin-top: 2em;
+    padding: 1em;
+    width: 100%;
+    background: peachpuff;
+    color: azure;
+    text-align: center;
+}
+footer a:link, footer a:visited{
+    color: azure;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+.hotdog a{
+    color: white;
+}
+.burrito a:hover{
+    text-decoration: purple;
+    color: peachpuff;
+}
+.burrito a:link, .burrito a:visited{
+    color: blueviolet;
+}

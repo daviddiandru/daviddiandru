@@ -1,0 +1,16 @@
+/*Modelo de caja*/
+div {
+    height: 120;
+    width: 300px;
+    background: #ff8000;
+    margin: 30px 50px;
+    padding: 30px;
+    border: 10px solid #000;
+    display: inline-block;
+}
+/* padding: margen interior
+display es para poner los elementos de bloque
+poder ponerlos en linea (se tiene que poner 
+como valor inline-block), border sirve para el borde
+y el valor de solid, es para definir que se vea el color del borde*/
+
