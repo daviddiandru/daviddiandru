@@ -668,33 +668,33 @@ en un elemento*/
 // aprobo()
 
 /**Another cofla  problem */
-let tp = "100 minutos hacer trabajos prácticos";
-let estudio = "100 minutos de estudio";
-let trabajo = "240 minutos de trabajo";
-let homework = "30 minutos de cosas de la casa";
-let descanso = "10 minutossss de descanso";
+// let tp = "100 minutos hacer trabajos prácticos";
+// let estudio = "100 minutos de estudio";
+// let trabajo = "240 minutos de trabajo";
+// let homework = "30 minutos de cosas de la casa";
+// let descanso = "10 minutossss de descanso";
 
-console.log("TAREAS");
+// console.log("TAREAS");
 
-for (var i = 0; i < 14; i++){
-    if (i == 0){
-        console.group("semana 1")
-    }
+// for (var i = 0; i < 14; i++){
+//     if (i == 0){
+//         console.group("semana 1")
+//     }
 
-    console.groupCollapsed("dia " + (i+1) );
-    console.log(trabajo);
-    console.log(estudio);
-    console.log(tp);
-    console.log(homework);    
-    console.groupEnd();
-    if (i == 7){
-        console.groupEnd();
-        console.groupCollapsed("semana 2")
-    }
-}
+//     console.groupCollapsed("dia " + (i+1) );
+//     console.log(trabajo);
+//     console.log(estudio);
+//     console.log(tp);
+//     console.log(homework);    
+//     console.groupEnd();
+//     if (i == 7){
+//         console.groupEnd();
+//         console.groupCollapsed("semana 2")
+//     }
+// }
 
-console.groupEnd();
-console.groupEnd();
+// console.groupEnd();
+// console.groupEnd();
 
 
 // parrafo = document.getElementsByTagName("p")
@@ -731,3 +731,71 @@ title - contiene un texto con la informacion relacionada al elemento al que pert
 -required*/
 // const input = document.querySelector(".input-normal");
 // input.accept = "image/png"
+
+
+
+
+/*Clases, classlist y metodos de classlist
+-add() añade una clase
+-romove() remueve una clase
+-item() devuelve la clase del indice especificado
+-contains() verifica si ese elemento posee o no, la clase especificada
+-replace() reemplaza una clase por otra
+toggle() si no tiene la clase especificada, la agrega, si ya la tiene, la elimina.*/
+
+// const titulo = document.querySelector(".titulo");
+
+// let valor = titulo.classList.replace("grande", "chico");
+// document.write(valor)
+
+/*Obtencion y modificacion de elementos
+-textContent- devuelve el texto de cualquier modo
+-innerText- devuelve el texto visible de un node element(ya no se usa)
+-outerText- devuelve el texto que den las etiquetas html incluidas las etiquetas(ya no se usa)
+
+-innerHTML- devuelve el contenido html de un elemento
+-outerHTML- devuelve el codigo html completo del elemento*/
+// const titulo = document.querySelector(".titulo");
+// let resultado = titulo.textContent;
+// let resultado2 = titulo.innerHTML;
+// let resultado3 = titulo.outerHTML;
+
+// alert(resultado)
+// alert(resultado2)
+// alert(resultado3)
+
+
+/*1 - Creacion de elementos
+-createElements()
+-createTextNode()
+-appendChild()
+-createDocumentFragment()*/
+/*2 - Obtencion y modificacion de childs(hijos)
+-firstChild
+-lastChild
+-firstElementChild
+-lastElementChild
+-childNodes
+-children*/
+/*3 - Metodos de childs(hijos)
+-appendChild()
+-replaceChild()
+-removeChild()
+-hasChildNodes()*/
+/*4 - Propiedades de parents(padres)
+-parentElement
+-parentNode*/
+/*5 - Propiedades de siblings
+-nextSibling*/
+// const contenedor = document.querySelector(".contenedor");//creacion de elementos
+// const item = document.createElement("li");
+// // const textDelItem = document.createTextNode("este es un item de la lista")
+// // // item.innerHTML = textDelItem;//nodo dentro de otro nodo
+// // item.appendChild(textDelItem);//metodos de childs
+// item.innerHTML = "Este es un item de la lista"//esto reemplaza a item.appendChild(textDelItem) y a const textDelItem = document.createTextNode("este es un item de la lista")
+// contenedor.appendChild(item)
+// console.log(item);
+const contenedor = document.querySelector(".contenedor"); //obtencion y modificacion de childs
+const primerHijo = contenedor.firstChild;
+console.log(primerHijo)
+9:05:00
