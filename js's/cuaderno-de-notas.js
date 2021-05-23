@@ -795,7 +795,7 @@ toggle() si no tiene la clase especificada, la agrega, si ya la tiene, la elimin
 // item.innerHTML = "Este es un item de la lista"//esto reemplaza a item.appendChild(textDelItem) y a const textDelItem = document.createTextNode("este es un item de la lista")
 // contenedor.appendChild(item)
 // console.log(item);
-const contenedor = document.querySelector(".contenedor"); //obtencion y modificacion de childs
-const primerHijo = contenedor.firstChild;
-console.log(primerHijo)
-9:05:00
+// const contenedor = document.querySelector(".contenedor"); //obtencion y modificacion de childs
+// const primerHijo = contenedor.firstChild;
+// console.log(primerHijo)
+// 9:05:00
